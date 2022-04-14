@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Pic/Home.jpg</file>
+        <file>Pic/Exit.jpg</file>
+        <file>Pic/Pictare.jpg</file>
+        <file>Pic/BackButtonPng.png</file>
+    </qresource>
+    <qresource prefix="/sound">
+        <file>Sound/Click.mp3</file>
+        <file>Sound/Error.mp3</file>
+        <file>Sound/Level Start.mp3</file>
+        <file>Sound/Success.mp3</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>Music/Colorful Cat - Ambivalence.mp3</file>
+        <file>Music/Colorful Cat - Evening Snowfall.mp3</file>
+        <file>Music/Colorful Cat - Happy Day.mp3</file>
+        <file>Music/Colorful Cat - Ikkonzome.mp3</file>
+        <file>Music/Colorful Cat - Night Market.mp3</file>
+    </qresource>
+</RCC>

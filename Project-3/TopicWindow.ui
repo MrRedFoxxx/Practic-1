@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TopicsWindow</class>
+ <widget class="QWidget" name="TopicsWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1279</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="Pic">
+   <property name="geometry">
+    <rect>
+     <x>-2</x>
+     <y>-5</y>
+     <width>1281</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Pic/Pictare.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BackButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>103</width>
+     <height>103</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(&quot;:/img/Pic/BackButtonPng.png&quot;);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>179</y>
+     <width>1141</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 125);
+border-radius: 25px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Topic1Button">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>250</y>
+     <width>921</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(230, 230, 230, 255);
+border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Тема 1: Разделительные буквы Ь и Ъ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Topic2Button">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>370</y>
+     <width>921</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;В разработке&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(230, 230, 230, 170);
+border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Тема 2: Буквы О-Ё после шипящих и Ц</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Topic3Button">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>490</y>
+     <width>921</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;В разработке&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(230, 230, 230, 170);
+border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Тема 3: Дефисное написание слов</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Topic4Button">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>610</y>
+     <width>921</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;В разработке&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(230, 230, 230, 170);
+border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Тема 4: Причастные обороты</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

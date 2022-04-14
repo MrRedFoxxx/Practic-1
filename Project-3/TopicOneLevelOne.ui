@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TopicOneLevelOne</class>
+ <widget class="QWidget" name="TopicOneLevelOne">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="BackButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>103</width>
+     <height>103</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(&quot;:/img/Pic/BackButtonPng.png&quot;);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pic">
+   <property name="geometry">
+    <rect>
+     <x>-2</x>
+     <y>-5</y>
+     <width>1281</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Pic/Pictare.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>199</y>
+     <width>1111</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 125);
+border-radius: 25px;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>50</y>
+     <width>771</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 125);
+border-radius: 25px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CheckButton">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>720</y>
+     <width>481</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Проверить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>60</y>
+     <width>771</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Задание 1: Поставьте галочку где нужен Ь&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>260</y>
+     <width>1011</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Вет__вистая сирен__ , настол__ная лампоч__ка, ил__люзия соучастия;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var1">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>290</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>290</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var3">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>290</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var4">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>290</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var5">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>290</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>350</y>
+     <width>931</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>В__стреча гос__тей, сил__нейший дожд__, брен__чать кастрюл__ками.</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var6">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>370</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var11">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>370</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var10">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>370</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var7">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>370</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var8">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>370</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="var9">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>370</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>pic</zorder>
+  <zorder>BackButton</zorder>
+  <zorder>widget</zorder>
+  <zorder>widget_2</zorder>
+  <zorder>CheckButton</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>var1</zorder>
+  <zorder>var2</zorder>
+  <zorder>var3</zorder>
+  <zorder>var4</zorder>
+  <zorder>var5</zorder>
+  <zorder>label_3</zorder>
+  <zorder>var6</zorder>
+  <zorder>var11</zorder>
+  <zorder>var10</zorder>
+  <zorder>var7</zorder>
+  <zorder>var8</zorder>
+  <zorder>var9</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

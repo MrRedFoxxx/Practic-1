@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsWindow</class>
+ <widget class="QWidget" name="SettingsWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1282</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="PictareSettings">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-60</y>
+     <width>1281</width>
+     <height>921</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Pic/Pictare.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>149</y>
+     <width>1201</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 125);
+border-radius: 25px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Sound">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>280</y>
+     <width>431</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>50</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgba(0, 0, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;center&gt; Громкость &lt;/center&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Voice">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>390</y>
+     <width>431</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>&lt;center&gt;Голос&lt;/center&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Music">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>510</y>
+     <width>421</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;center&gt;Музыка&lt;/center&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SoundOn">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>280</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Включена</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="VoiceOn">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>400</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Включена</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MusicOn">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>520</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Включена</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SoundOff">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>280</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выключена</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="VoiceOff">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>400</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выключена</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MusicOff">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>520</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выключена</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ExitButton_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>103</width>
+     <height>103</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/img/Pic/BackButtonPng.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(&quot;:/img/Pic/BackButtonPng.png&quot;);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

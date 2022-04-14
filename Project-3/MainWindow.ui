@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1281</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="ExitButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>520</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SettingsButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>520</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PlayButton">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>500</y>
+      <width>401</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TelegramButton">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>240</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="YouTubeButton">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>360</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1281</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Pic/Home.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>image</zorder>
+   <zorder>SettingsButton</zorder>
+   <zorder>PlayButton</zorder>
+   <zorder>TelegramButton</zorder>
+   <zorder>YouTubeButton</zorder>
+   <zorder>ExitButton</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>ExitButton</sender>
+   <signal>clicked()</signal>
+   <receiver>centralwidget</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>150</x>
+     <y>540</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>617</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
